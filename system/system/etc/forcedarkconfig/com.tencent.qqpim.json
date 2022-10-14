@@ -1,0 +1,18 @@
+{
+  "packageName": "com.tencent.qqpim",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.qqpim.apps.newsv2.ui.MobileNewActivity",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.idlefish.flutterboost.containers.BoostFlutterActivity",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

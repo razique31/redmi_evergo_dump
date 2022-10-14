@@ -1,0 +1,14 @@
+ro.product.system.marketname=Redmi Note 11S 5G
+ro.product.system.brand=Redmi
+ro.product.system.device=opal
+ro.miui.product.home=com.miui.home
+ro.product.system.name=opal_in
+ro.system.build.fingerprint=Redmi/opal_in/opal:12/SP1A.210812.016/V13.0.5.0.SGBINXM:user/release-keys
+ro.miui.product.home=com.miui.home
+# ADDITIONAL CUSTOM PROPERTIES
+ro.product.wt.boardid=S98018AA1
+ro.miui.support_fingerprint=true
+ro.product.subproject=S98018AA1
+ro.product.cert=22031116BG
+ro.product.system.model=22031116BG
+

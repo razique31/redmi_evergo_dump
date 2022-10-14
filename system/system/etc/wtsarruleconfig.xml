@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SarRuleConfig>
+<restore>
+<sar_cell_restore value="0"/>
+</restore>
+<configs>
+<config>
+<is_receiver_phoneon value="1"/>
+<is_sar_cell_reduce value="1"/>
+</config>
+<config>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="0"/>
+<is_sarsensor_bottom value="0"/>
+<is_sar_cell_reduce value="2"/>
+</config>
+<config>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="0"/>
+<is_sarsensor_bottom value="1"/>
+<is_sar_cell_reduce value="3"/>
+</config>
+<config>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="1"/>
+<is_sar_cell_reduce value="4"/>
+</config>
+<config>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="2"/>
+<is_sar_cell_reduce value="4"/>
+</config>
+<config>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="3"/>
+<is_sar_cell_reduce value="4"/>
+</config>
+<config>
+<is_voice value="0"/>
+<is_receiver_phoneon value="0"/>
+<is_sarsensor_top value="0"/>
+<is_wifi_ap_opened value="0"/>
+<is_sar_cell_reduce value="-1"/>
+<is_sim_mcc value="1"/>
+</config>
+</configs>
+</SarRuleConfig>

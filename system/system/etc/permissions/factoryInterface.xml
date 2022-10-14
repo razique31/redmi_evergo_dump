@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+
+    <library name="interfaces.customNvService-V1.0-java-shallow"
+             file="/system_ext/framework/interfaces.customNvService-V1.0-java-shallow.jar"/>
+    <library name="interfaces.factoryInterface-V1.0-java-shallow"
+             file="/system_ext/framework/interfaces.factoryInterface-V1.0-java-shallow.jar"/>
+    <library name="interfaces.factoryAta-V1.0-java-shallow"
+             file="/system_ext/framework/interfaces.factoryAta-V1.0-java-shallow.jar"/>
+
+    <library name="interfaces.customNvService-V1.0-java"
+             file="/system_ext/framework/interfaces.customNvService-V1.0-java.jar"
+             dependency="interfaces.customNvService-V1.0-java-shallow"
+    />
+    <library name="interfaces.factoryInterface-V1.0-java"
+             file="/system_ext/framework/interfaces.factoryInterface-V1.0-java.jar"
+             dependency="interfaces.factoryInterface-V1.0-java-shallow"
+    />
+    <library name="interfaces.factoryAta-V1.0-java"
+             file="/system_ext/framework/interfaces.factoryAta-V1.0-java.jar"
+             dependency="interfaces.factoryAta-V1.0-java-shallow"
+    />
+</permissions>

@@ -1,0 +1,105 @@
+{
+  "packageName": "com.tencent.karaoke",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "UserBusinessCardActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "ViewPager",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "CircleIndicatorView",
+              "parent": 0,
+              "index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.tme.record.preview.RecordPreviewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "ScaleBar"
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.hippy.ui.HippyInstanceActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.tencent.mtt.hippy.HippyRootView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.tencent.karaoke.module.hippy.ui.HippyRootLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "KKIconView",
+      "forceDark": false,
+      "conditions": [
+        {
+          "viewName": "KKFrameLayout",
+          "parent": 0,
+          "index": -1
+        },
+        {
+          "viewName": "KKRecyclerView",
+          "parent": 1,
+          "index": -1
+        },
+        {
+          "viewName": "KKTextView",
+          "parent": 0,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "viewName": "KKImageView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "conditions": [
+        {
+          "viewName": "UserPageDrawerItemView",
+          "parent": 0,
+          "index": -1
+        }
+      ]
+    }
+  ]
+}
